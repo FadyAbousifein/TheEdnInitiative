@@ -13,7 +13,7 @@ body {
     font-weight: 700; 
     font-size: .9rem; 
     letter-spacing: .1rem; 
-    background: rgba(0, 0, 0, 0.6)!important;
+    background-color: white;
 }
 
 .navbar-brand img{
@@ -24,18 +24,31 @@ body {
     padding: .7rem; 
 }
 
-.navbar-dark .navbar-nav .nav-link {
-    color: white; 
+.navbar-nav .nav-link {
+    color: green; 
     padding-top: .8rem; 
 }
+.nav-link::after {
+    content: '';
+    height: 2px; 
+    width: 0%; 
+    background-color: green;
+    display: block; 
+    transition: .3s ease-in-out; 
+}
 
-.navbar-dark .navbar-nav .nav-link.active, 
-.navbar-dark .navbar-nav .nav-l ink:hover {
-    color: #1ebba3; 
+ .nav-link:hover::after {
+    content: '';
+    height: 2px; 
+    width: 100%; 
+    background-color: green;
+    display: block; 
 }
 
 /*--- Home/Landing Page --*/
 
 .home-inner img {
-    background-image: url(images/Homepagelogo.png); 
+    width: 100%; 
+    height: auto;  
 }
+    
