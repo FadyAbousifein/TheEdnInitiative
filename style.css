@@ -6,6 +6,13 @@ body {
     color: #505962; 
 }
 
+.offset::before {
+    display: block;
+    content: '';
+    height: 4rem; 
+    margin-top: -4rem; 
+}
+
 /*--- Navigation --*/
 
 .navbar {
@@ -25,7 +32,7 @@ body {
 }
 
 .navbar-nav .nav-link {
-    color: green; 
+    color: #29854D; 
     padding-top: .8rem; 
 }
 
@@ -38,4 +45,94 @@ body {
 .home-inner {
     background-image: url(images/EDNLOGO.png);
 }
-    
+
+/*--- Mission --*/
+
+.narrow {
+    width: 75%; 
+    margin: 1.5rem auto; 
+    padding-top: 2rem; 
+}
+
+.narrow h1 {
+    font-size: 2.4rem; 
+    font-weight: bold; 
+}
+
+.btn-secondary {
+    border-width: medium; 
+    border-radius: 0; 
+    text-transform: uppercase; 
+    font-size: 1.2 rem; 
+    padding: .6rem 1.2rem; 
+    margin: 1rem; 
+    color: white; 
+    background-color: #29854D;
+    border-color: #29854D; 
+}
+
+.btn-secondary:hover {
+    background-color: #03C04A;
+    border-color: #03C04A
+}
+
+/*--- Services --*/
+
+.jumbotron {
+    margin-bottom: 0;
+    padding: 2rem 0 3.5rem; 
+    border-radius: 0;
+}
+
+h3.heading {
+    font-size: 1.9rem; 
+    font-weight: 700; 
+    text-transform: uppercase;
+    margin-bottom: 1.9rem; 
+    text-align: center; 
+}
+
+.heading-underline {
+    width: 3rem; 
+    height: .2rem; 
+    background-color: #29854D; 
+    margin: 0 auto 2rem; 
+}
+
+.feature svg.svg-inline--fa {
+    color: #29854D; 
+}
+
+.feature h3 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: .4rem;
+    font-weight: bold; 
+
+}
+
+.feature p {
+    font-size: 1.1rem; 
+}
+
+/*--- Contact Information --*/
+
+footer {
+    color: black; 
+    padding: 2rem 0 2rem; 
+    margin-top: 1rem; 
+}
+
+footer img {
+   height: 3rem; 
+
+}
+ hr.socket {
+     width: 100%;
+     border-top: .2rem solid #29854D; 
+     margin-top: 3rem; 
+ }
+
+div#copyRight {
+    text-align: center; 
+} 
