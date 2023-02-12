@@ -211,11 +211,23 @@ li::marker {
     transform: translateY(0);
 }
 
-
+.images-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image {
+    display: inline-block;
+    width: 20%;
+    margin: 0 10px;
+  }
+  
 .imageTitle {
     font-size: 2em;
     font-weight: bold;
 }
+
+
 
 .imageTitle a {
     text-decoration: none;
